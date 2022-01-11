@@ -1,13 +1,9 @@
-echo "===================================="
-echo "Download windows files"
-echo "===================================="
 wget https://chromedriver.storage.googleapis.com/96.0.4664.45/chromedriver_linux64.zip > /dev/null 2>&1
 unzip chromedriver_linux64.zip  > /dev/null 2>&1
 read -p "Ctrl + V Authtoken: " CRP 
 ./ngrok authtoken $CRP 
 nohup ./ngrok tcp 3389 &>/dev/null &
 echo Downloading File From akuh.net
-sudo apt update && apt upgrade -y
 sudo apt install firefox -y
 sudo apt install vlc -y
 sudo pip install fake_useragent
