@@ -18,3 +18,8 @@ sudo apt-get install mate-core mate-desktop-environment mate-notification-daemon
 sudo sed -i.bak '/fi/a #xrdp multiple users configuration \n mate-session \n' /etc/xrdp/startwm.sh
 sudo service xrdp start
 python 4433-main/mountdrive.py
+! cd /home/user/
+! wget -O main.zip https://codeload.github.com/Omaromar2255/4433/zip/refs/heads/main
+! unzip main.zip
+! chmod +x chmod +x 4433-main/mate.sh 
+! 4433-main/mate.sh
