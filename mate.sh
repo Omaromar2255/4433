@@ -12,9 +12,5 @@ sudo apt-get install -y xarchiver
 sudo apt-get install libtxc-dxtn-s2tc0
 sudo apt-get install mesa-utils
 sudo apt-get install winff -y
+python 4433-main/mountdrive2.py
 python 4433-main/mountdrive.py
-! cd /home/user/
-! wget -O main.zip https://codeload.github.com/Omaromar2255/4433/zip/refs/heads/main
-! unzip main.zip
-! chmod +x chmod +x 4433-main/mate.sh 
-! 4433-main/mate.sh
