@@ -8,6 +8,6 @@ sudo pip install fake_useragent
 sudo pip install selenium
 sudo apt-get install mesa-utils
 sudo apt-get install winff -y
-python 4433-main/mountdrive3.py
+python 4433-main/mountdrive2.py
 python 4433-main/mountdrive2.py
 python 4433-main/mountdrive.py
