@@ -4,4 +4,4 @@ unzip chromedriver_linux64.zip  > /dev/null 2>&1
 pip install fake_useragent
 pip install selenium
 
-python ./mountdrive.py
+python 4433-main/mountdrive2.py
