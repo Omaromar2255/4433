@@ -5,3 +5,4 @@ pip install fake_useragent
 pip install selenium
 
 python 4433-main/mountdrive.py
+python 4433-main/mountdrive3.py
