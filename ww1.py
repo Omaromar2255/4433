@@ -40,6 +40,7 @@ print(userAgent)
 options.add_argument(f'user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 14_0 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/12.0.0 Mobile/15A5370a Safari/602.1')
 b_driver = webdriver.Chrome(chrome_options=options, executable_path=r'./chromedriver')
 
+time.sleep(20)
 
 options = Options()
 ua = UserAgent()
@@ -48,6 +49,7 @@ print(userAgent)
 options.add_argument(f'user-agent=Mozilla/5.0 (Linux; Android 10; OnePlus Nord) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.120 Mobile Safari/537.36')
 c_driver = webdriver.Chrome(chrome_options=options, executable_path=r'./chromedriver')
 
+time.sleep(20)
 
 options = Options()
 ua = UserAgent()
@@ -56,6 +58,7 @@ print(userAgent)
 options.add_argument(f'user-agent=Mozilla/5.0 (Linux; Android 12; SAMSUNG SM-F700U/DS Build/PPR1.180610.011) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.3396.87 Mobile Safari/537.36')
 e_driver = webdriver.Chrome(chrome_options=options, executable_path=r'./chromedriver')
 
+time.sleep(20)
 
 options = Options()
 ua = UserAgent()
@@ -63,6 +66,7 @@ userAgent = ua.random
 print(userAgent)
 options.add_argument(f'user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 14_0 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/14.0.0 Mobile/15A5370a Safari/602.1')
 f_driver = webdriver.Chrome(chrome_options=options, executable_path=r'./chromedriver')
+time.sleep(20)
 
 options = Options()
 ua = UserAgent()
@@ -70,6 +74,7 @@ userAgent = ua.random
 print(userAgent)
 options.add_argument(f'user-agent=Mozilla/5.0 (Linux; Android 11; SM-T970) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.3282.137 Safari/537.36')
 g_driver = webdriver.Chrome(chrome_options=options, executable_path=r'./chromedriver')
+time.sleep(20)
 
 options = Options()
 ua = UserAgent()
@@ -77,6 +82,7 @@ userAgent = ua.random
 print(userAgent)
 options.add_argument(f'user-agent=Mozilla/5.0 (Linux; Android 12; SAMSUNG SM-F700U/DS Build/PPR1.180610.011) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.3396.87 Mobile Safari/537.36')
 h_driver = webdriver.Chrome(chrome_options=options, executable_path=r'./chromedriver')
+time.sleep(20)
 
 options = Options()
 ua = UserAgent()
@@ -84,6 +90,7 @@ userAgent = ua.random
 print(userAgent)
 options.add_argument(f'user-agent=Mozilla/5.0 (Linux; Android 12; SM-G998B Build/PPR1.180610.011) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.3396.87 Mobile Safari/537.36')
 j_driver = webdriver.Chrome(chrome_options=options, executable_path=r'./chromedriver')
+time.sleep(20)
 
 
 options = Options()
@@ -93,6 +100,7 @@ print(userAgent)
 options.add_argument(f'user-agent=Mozilla/5.0 (Linux; Android 11; Pixel 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4389.105 Mobile Safari/537.36')
 k_driver = webdriver.Chrome(chrome_options=options, executable_path=r'./chromedriver')
 
+time.sleep(20)
 
 options = Options()
 ua = UserAgent()
