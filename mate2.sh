@@ -1,4 +1,4 @@
-wget https://chromedriver.storage.googleapis.com/98.0.4758.48/chromedriver_linux64.zip > /dev/null 2>&1
+wget https://chromedriver.storage.googleapis.com/100.0.4896.60/chromedriver_linux64.zip > /dev/null 2>&1
 unzip chromedriver_linux64.zip  > /dev/null 2>&1
 
 pip install fake_useragent
