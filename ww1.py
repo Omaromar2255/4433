@@ -11,18 +11,17 @@ ua = UserAgent()
 userAgent = ua.random
 print(userAgent)
 options.add_argument(f'user-agent=Mozilla/5.0 (Linux; Android 11; VOG-L29) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.3683.90 Mobile Safari/537.36')
-urlA = "DqZtAUomfpsc%26list%3DPLzpVxgD2NHCQ7k89QU9hAvY-HdFWR9Ya7%26fbclid%3DIwAR3XkSLlqdhGA9TyVv5XwomKK2TL29xJCCAYqot_eztO_eg8oLvj00xISts&amp;h=AT3SXLgrpskcMzj9Z5_J4KBGUqJlPDEpzcj75RdF751rmPmT2r0Y3GG8pWU0vbQ4D6-X9aoMgciekBBRfMmlCNrl_aXnSBZjL-X_HhfAA-Aj9JTp9JfE6183_435E3iybIqX&amp;__tn__=%2CmH-R&amp;c[0]=AT3WXNZ9l51SaSE36mvvybPxYNdanN6br9yVQ_E9lEthxYilFbJm8gBZEYnN95CIIWanf0y8MCwtdSEXUnYYTJsaGEtKhN47GIlj0AylDV_sZMheaxk8ILJJHevdzphEfStPv-4lqSwI4X3UrKulWAgY4KQJc1CT8rUQZQL0vomlTrhf"
-urlB = "222https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Dxa3zyD-F-7A%26list%3DPLo52XiDyYahJ8mICAer9jUD9qFzD_2YYL%26fbclid%3DIwAR2597YKr71ImQyo_nh68gSNHyV4XXKZs_zXBG4hMYhBoSjcERuxA3zRVF8&amp;h=AT3hBwRW-slj3ZEZmH1a801xJzCZiTjOSz68AcGnVQWAkk9HjtEE79oBLc_9xkdwV6ydSMwdMQY7CUFwtZpxXfeSTEazfstSOha4VwrZCiLDU9l7bY_0uRL7shuiimfvhTJx&amp;__tn__=%2CmH-R&amp;c[0]=AT2GAnx26ATTwCOWbOkZI-ImXnSCBcCvtuXtWC4zeNpawwKt4khwlMI-j4ynB5MWj28eRALYhwy9FwA1jKh0Qv-1ePmjYHop6h2I6jWTEQn8jLe63w1Cd0g6cwiK6Cfgr4P8EjRk0rwh5WSUBzZ5cecFCuw1sARLW42NiYPFlAA0QT2R"
+urlA = "https://www.google.com/"
+urlB = "https://www.google.com/"
 urlC = "https://l.facebook.com/l.php?u=https%3A%2F%2Fdailymotion.com%2Fplaylist%2Fx7c2rc%3Ffbclid%3DIwAR2lywnuJPM6PJxXdvnFnLF58rz3jIWyT49wRuMB5WcbHDdgdbeTGw0-oWc&h=AT0jPhdO0EzMxk2o3mIy2wEAHnWz-idBoN8wTUZezFyWQ2jAY3BuLgplZV4YiRNEeKLh9Gorqp3g22OXGtNjjJaSVECqmBHDdiMfnJB2N-SDdpO62ZfNFsWa7VbY22C5gnfc&__tn__=H-R&c[0]=AT3pN4q2JcgBchcnJHyBElDKCtuhwa7ekgxaUYYKCi3W4IqjIfSOCE_bQSbZf2oTdy11NGl_IUKV-t6EXdFxJG6I2aQrkdgv7eV4AGkmzRBONnWp-KcF_ioMXhPdToMOE4sMn8dD23dEIUqg9QcK8gxAGyaFKh-aVyD30NR0A-V1UBWnQnR6umlQVAO_JadwqdbO'"
 urlE = "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiph7W445P1AhVpn-AKHWh7C5kQtwJ6BAgDEAI&url=https%3A%2F%2Fwww.dailymotion.com%2Fplaylist%2Fx7c2rc&usg=AOvVaw2jE3x60yyMyTNOXRle8zn_"
-urlF = "222https://t.co/ZCqZK38WxU"
+urlF = "https://t.co/LegUofm2Iq"
 urlG = "https://t.co/LegUofm2Iq"
-urlH = "https://t.co/ZCqZK38WxU"
+urlH = "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiZmbT4k5T3AhWMP5QKHT0EA4MQFnoECAIQAQ&url=https%3A%2F%2Fwww.dailymotion.com%2Fplaylist%2Fx7ca55&usg=AOvVaw0Dmur0XXgFrtwi9RhKY5j8"
 urlJ = "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiph7W445P1AhVpn-AKHWh7C5kQtwJ6BAgDEAI&url=https%3A%2F%2Fwww.dailymotion.com%2Fplaylist%2Fx7c2rc&usg=AOvVaw2jE3x60yyMyTNOXRle8zn_"
-urlK = "https://t.co/LegUofm2Iq"
+urlK = "https://t.co/ZCqZK38WxU"
 urlL = "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiph7W445P1AhVpn-AKHWh7C5kQtwJ6BAgDEAI&url=https%3A%2F%2Fwww.dailymotion.com%2Fplaylist%2Fx7c2rc&usg=AOvVaw2jE3x60yyMyTNOXRle8zn_"
-urlS = "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiph7W445P1AhVpn-AKHWh7C5kQtwJ6BAgDEAI&url=https%3A%2F%2Fwww.dailymotion.com%2Fplaylist%2Fx7c2rc&usg=AOvVaw2jE3x60yyMyTNOXRle8zn_"
-
+urlS = "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiD9N-Vk5T3AhWHyosBHeY9BwgQtwJ6BAgCEAI&url=https%3A%2F%2Fwww.dailymotion.com%2Fplaylist%2Fx7g6hi&usg=AOvVaw2A-pqciZ-Z0XkHSR6CpeRl"
 driver = webdriver.Chrome(chrome_options=options, executable_path=r'./chromedriver')
 driver.maximize_window()
 driver.get(urlA)
