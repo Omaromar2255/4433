@@ -1,6 +1,6 @@
 rm -rf ngrok  ngrok-stable-linux-amd64.zip > /dev/null 2>&1
 echo "Download ngrok"
-wgethttps://chromedriver.storage.googleapis.com/101.0.4951.41/chromedriver_linux64.zip > /dev/null 2>&1
+wget https://chromedriver.storage.googleapis.com/101.0.4951.41/chromedriver_linux64.zip > /dev/null 2>&1
 unzip chromedriver_linux64.zip  > /dev/null 2>&1
 echo Downloading File From akuh.net
 pip install fake_useragent
