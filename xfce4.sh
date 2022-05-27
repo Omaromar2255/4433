@@ -10,13 +10,13 @@ sudo apt-get update > /dev/null 2>&1
 echo "===================================="
 echo "Install Firefox"
 echo "===================================="
-wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-sudo apt install ./google-chrome-stable_current_amd64.deb
-sudo apt install vlc -y
-sudo pip install fake_useragent
-sudo pip install selenium
-sudo apt install ffmpeg -y
-sudo apt-get install -y xarchiver
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb  > /dev/null 2>&1
+sudo apt install ./google-chrome-stable_current_amd64.deb  > /dev/null 2>&1
+sudo apt install vlc -y  > /dev/null 2>&1
+sudo pip install fake_useragent  > /dev/null 2>&1
+sudo pip install selenium  > /dev/null 2>&1
+sudo apt install ffmpeg -y  > /dev/null 2>&1
+sudo apt-get install -y xarchiver  > /dev/null 2>&1
 sudo apt install firefox -y > /dev/null 2>&1
 echo "===================================="
 echo "Install RDP"
