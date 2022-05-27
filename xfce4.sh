@@ -25,6 +25,8 @@ sudo apt-get install libtxc-dxtn-s2tc0 > /dev/null 2>&1
 sudo apt-get install mesa-utils > /dev/null 2>&1
 sudo apt-get install -y xarchiver  > /dev/null 2>&1
 sudo apt install firefox -y > /dev/null 2>&1
+wget https://dl.google.com/linux/direct/chrome-remote-desktop_current_amd64.deb
+sudo dpkg -i chrome* && sudo apt-get install -f
 echo "===================================="
 echo "Install RDP"
 echo "===================================="
