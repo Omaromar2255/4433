@@ -21,9 +21,7 @@ sudo apt install firefox -y > /dev/null 2>&1
 echo "===================================="
 echo "Install RDP"
 echo "===================================="
-sudo apt install -y xrdp > /dev/null 2>&1
-sudo apt install xfce4 -y > /dev/null 2>&1
-sudo apt-get install xfce4 xfce4-goodies -y > /dev/null 2>&1
+sudo apt-get install xfce4 xfce4-goodies  > /dev/null 2>&1
 echo "===================================="
 echo "Start RDP"
 echo "===================================="
