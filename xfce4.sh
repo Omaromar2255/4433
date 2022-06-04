@@ -29,7 +29,7 @@ echo "===================================="
 echo "Install RDP"
 echo "===================================="
 sudo apt install -y xrdp > /dev/null 2>&1
-sudo apt install --assume-yes xfce4 desktop-base xfce4-terminal > /dev/null 2>&1
+sudo apt-get install xfce4 xfce4-goodies > /dev/null 2>&1
 sudo apt remove --assume-yes gnome-terminal > /dev/null 2>&1
 sudo apt install --assume-yes xscreensaver > /dev/null 2>&1
 sudo systemctl disable lightdm.service > /dev/null 2>&1
