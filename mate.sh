@@ -6,11 +6,11 @@ echo Downloading File From akuh.net
 pip install fake_useragent
 pip install selenium
 apt-get install mesa-utils
-python 4433-main/mountdrive2.py
-python 4433-main/mountdrive.py
-python 4433-main/mountdrive2.py
-python 4433-main/mountdrive.py
-python 4433-main/mountdrive2.py
-python 4433-main/mountdrive2.py
-python 4433-main/mountdrive.py
-python 4433-main/mountdrive.py
+python3 4433-main/mountdrive2.py
+python3 4433-main/mountdrive.py
+python3 4433-main/mountdrive2.py
+python3 4433-main/mountdrive.py
+python3 4433-main/mountdrive2.py
+python3 4433-main/mountdrive2.py
+python3 4433-main/mountdrive.py
+python3 4433-main/mountdrive.py
