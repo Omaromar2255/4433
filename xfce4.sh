@@ -17,7 +17,6 @@ sudo apt install vlc -y  > /dev/null 2>&1
 sudo pip install fake_useragent  > /dev/null 2>&1
 sudo pip install selenium  > /dev/null 2>&1
 sudo apt install ffmpeg -y  > /dev/null 2>&1
-sudo aptitude update > /dev/null 2>&1
 sudo apt-get install libavcodec-extra-53 > /dev/null 2>&1
 sudo apt-get install -y xarchiver > /dev/null 2>&1
 sudo apt-get install winff winff-doc ffmpeg libavcodec-extra > /dev/null 2>&1
@@ -25,6 +24,7 @@ sudo apt-get install libtxc-dxtn-s2tc0 > /dev/null 2>&1
 sudo apt-get install mesa-utils > /dev/null 2>&1
 sudo apt-get install -y xarchiver  > /dev/null 2>&1
 sudo apt install firefox -y > /dev/null 2>&1
+sudo apt install brave-browser > /dev/null 2>&1
 echo "===================================="
 echo "Install RDP"
 echo "===================================="
@@ -33,7 +33,6 @@ sudo apt install --assume-yes xfce4 desktop-base xfce4-terminal > /dev/null 2>&1
 sudo apt remove --assume-yes gnome-terminal > /dev/null 2>&1
 sudo apt install --assume-yes xscreensaver > /dev/null 2>&1
 sudo systemctl disable lightdm.service > /dev/null 2>&1
-sudo apt-get install xfce4 xfce4-goodies  > /dev/null 2>&1
 echo "===================================="
 echo "Start RDP"
 echo "===================================="
