@@ -24,7 +24,7 @@ sudo apt-get install libtxc-dxtn-s2tc0 > /dev/null 2>&1
 sudo apt-get install mesa-utils > /dev/null 2>&1
 sudo apt-get install -y xarchiver  > /dev/null 2>&1
 sudo apt install firefox -y > /dev/null 2>&1
-sudo apt install brave-browser > /dev/null 2>&1
+sudo apt install nautilus-admin > /dev/null 2>&1
 echo "===================================="
 echo "Install RDP"
 echo "===================================="
