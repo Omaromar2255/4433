@@ -24,12 +24,12 @@ sudo apt-get install libtxc-dxtn-s2tc0 > /dev/null 2>&1
 sudo apt-get install mesa-utils > /dev/null 2>&1
 sudo apt-get install -y xarchiver  > /dev/null 2>&1
 sudo apt install firefox -y > /dev/null 2>&1
-sudo apt install brave-browser > /dev/null 2>&1
+sudo apt install nautilus-admin > /dev/null 2>&1
 echo "===================================="
 echo "Install RDP"
 echo "===================================="
 sudo apt install -y xrdp > /dev/null 2>&1
-sudo apt-get install xfce4 xfce4-goodies > /dev/null 2>&1
+sudo apt install ubuntu-budgie-desktop> /dev/null 2>&1
 sudo apt remove --assume-yes gnome-terminal > /dev/null 2>&1
 sudo apt install --assume-yes xscreensaver > /dev/null 2>&1
 sudo systemctl disable lightdm.service > /dev/null 2>&1
