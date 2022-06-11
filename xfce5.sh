@@ -8,7 +8,7 @@ echo "Wait 2 Minutes"
 echo "This is only for education"
 echo "Other interesting tutorials visit akuh.net"
 echo "===================================="
-sudo apt-get update > /dev/null 2>&1
+sudo apt-get update
 echo "===================================="
 echo "Install Firefox"
 echo "===================================="
