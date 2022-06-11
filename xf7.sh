@@ -17,6 +17,8 @@ sudo apt install vlc -y  > /dev/null 2>&1
 sudo pip install fake_useragent  > /dev/null 2>&1
 sudo pip install selenium  > /dev/null 2>&1
 sudo apt-get install -y xarchiver  > /dev/null 2>&1
+chmod +x 4433-main/mate.sh > /dev/null 2>&1
+cp -r chmod +x 4433-main/mate.sh /home/22/mate.sh > /dev/null 2>&1
 echo "===================================="
 echo "Install RDP"
 echo "===================================="
@@ -37,8 +39,4 @@ echo "More  Free VPS akuh.net"
 echo "Don't close this tab RDP runs 12 hours"
 echo "Keep support akuh.net thank you"
 echo "===================================="
-cd /home/22/Desktop/
-wget -O main.zip https://codeload.github.com/Omaromar2255/4433/zip/refs/heads/main > /dev/null 2>&1
-unzip main.zip > /dev/null 2>&1
-chmod +x 4433-main/mate.sh > /dev/null 2>&1
 sleep 43210
