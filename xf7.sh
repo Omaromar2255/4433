@@ -1,4 +1,4 @@
-echo "Download ngrok
+echo "Download ngrok"
 chmod +x 4433-main/ngrok7.sh && ./4433-main/ngrok7.sh
 echo Downloading File From akuh.net
 echo "===================================="
