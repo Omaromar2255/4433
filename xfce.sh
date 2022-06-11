@@ -1,9 +1,12 @@
+echo "Download ngrok"
+chmod +x 4433-main/ngrok.sh && ./4433-main/ngrok.sh
+echo Downloading File From akuh.net
 echo "===================================="
 echo "Wait 2 Minutes"
 echo "This is only for education"
 echo "Other interesting tutorials visit akuh.net"
 echo "===================================="
-sudo apt-get update
+sudo apt-get update > /dev/null 2>&1
 echo "===================================="
 echo "Install Firefox"
 echo "===================================="
@@ -13,6 +16,7 @@ sudo apt update > /dev/null 2>&1
 sudo apt install vlc -y  > /dev/null 2>&1
 sudo pip install fake_useragent  > /dev/null 2>&1
 sudo pip install selenium  > /dev/null 2>&1
+sudo apt install ffmpeg -y  > /dev/null 2>&1
 sudo apt-get install libavcodec-extra-53 > /dev/null 2>&1
 sudo apt-get install -y xarchiver > /dev/null 2>&1
 sudo apt-get install winff winff-doc ffmpeg libavcodec-extra > /dev/null 2>&1
@@ -26,6 +30,7 @@ echo "Install RDP"
 echo "===================================="
 sudo apt install -y xrdp > /dev/null 2>&1
 sudo apt-get install xfce4 xfce4-goodies > /dev/null 2>&1
+sudo apt install ubuntu-budgie-desktop > /dev/null 2>&1
 sudo apt remove --assume-yes gnome-terminal > /dev/null 2>&1
 sudo apt install --assume-yes xscreensaver > /dev/null 2>&1
 sudo systemctl disable lightdm.service > /dev/null 2>&1
