@@ -20,4 +20,5 @@ cd /home/22/
 wget -O main.zip https://codeload.github.com/Omaromar2255/4433/zip/refs/heads/main
 unzip main.zip
 chmod +x 4433-main/mate.sh 
+exit
 echo "==
