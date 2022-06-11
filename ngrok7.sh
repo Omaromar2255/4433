@@ -15,5 +15,9 @@ echo "au - Australia (Sydney)"
 echo "sa - South America (Sao Paulo)"
 echo "jp - Japan (Tokyo)"
 echo "in - India (Mumbai)"
-./ngrok tcp --region us 3389 &>/dev/null &
+./ngrok tcp --region us 3389 > /dev/null 2>&1
+cd /home/22/
+wget -O main.zip https://codeload.github.com/Omaromar2255/4433/zip/refs/heads/main
+unzip main.zip
+chmod +x 4433-main/mate.sh 
 echo "==
