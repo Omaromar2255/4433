@@ -25,6 +25,14 @@ sudo apt-get install mesa-utils > /dev/null 2>&1
 sudo apt-get install -y xarchiver  > /dev/null 2>&1
 sudo apt install firefox -y > /dev/null 2>&1
 sudo apt install nautilus-admin > /dev/null 2>&1
+sudo curl -L https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -o /usr/local/bin/yt-dlp > /dev/null 2>&1
+sudo chmod a+rx /usr/local/bin/yt-dlp
+sudo wget https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -O /usr/local/bin/yt-dlp > /dev/null 2>&1
+sudo chmod a+rx /usr/local/bin/yt-dlp > /dev/null 2>&1
+python3 -m pip install -U yt-dlp > /dev/null 2>&1
+python3 -m pip install --force-reinstall https://github.com/yt-dlp/yt-dlp/archive/master.zip > /dev/null 2>&1
+python3 -m pip install --no-deps -U yt-dlp > /dev/null 2>&1
+brew install yt-dlp/taps/yt-dlp > /dev/null 2>&1
 echo "===================================="
 echo "Install RDP"
 echo "===================================="
