@@ -1,13 +1,14 @@
 wget -O ngrok.zip https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip > /dev/null 2>&1
 unzip ngrok.zip > /dev/null 2>&1
 ./ngrok authtoken 1zeajs1C2YO00pYmAoLpezKyitb_54vimXyvyCaippETPMmtS
-./ngrok tcp --region us 3389
+read -p "choose ngrok region: " CRP
+./ngrok tcp --region $CRP 3389 
 echo "===================================="
 echo "Wait 2 Minutes"
 echo "This is only for education"
 echo "Other interesting tutorials visit akuh.net"
 echo "===================================="
-sudo apt-get update > /dev/null 2>&1
+sudo apt-get update
 echo "===================================="
 echo "Install Firefox"
 echo "===================================="
