@@ -2,8 +2,8 @@ echo "======================="
 echo "Download ngrok"
 echo "======================="
 rm -rf ngrok ngrok.zip ngrok2.sh > /dev/null 2>&1
-chmod +x 4433-main/ng7.sh
-./4433-main/ng7.sh
+chmod +x 4433-main/ng5.sh
+./4433-main/ng5.sh
 clear
 echo "======================="
 echo choose ngrok region
