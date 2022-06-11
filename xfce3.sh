@@ -3,11 +3,6 @@ unzip ngrok.zip > /dev/null 2>&1
 ./ngrok authtoken 1zeajs1C2YO00pYmAoLpezKyitb_54vimXyvyCaippETPMmtS
 read -p "choose ngrok region: " CRP
 ./ngrok tcp --region $CRP 3389 
-echo "===================================="
-echo "Wait 2 Minutes"
-echo "This is only for education"
-echo "Other interesting tutorials visit akuh.net"
-echo "===================================="
 sudo apt-get update
 echo "===================================="
 echo "Install Firefox"
