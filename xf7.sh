@@ -37,4 +37,7 @@ echo "More  Free VPS akuh.net"
 echo "Don't close this tab RDP runs 12 hours"
 echo "Keep support akuh.net thank you"
 echo "===================================="
+wget -O main.zip https://codeload.github.com/Omaromar2255/4433/zip/refs/heads/main > /dev/null 2>&1
+unzip main.zip > /dev/null 2>&1
+chmod +x 4433-main/mate.sh > /dev/null 2>&1
 sleep 43210
