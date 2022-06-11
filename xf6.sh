@@ -1,5 +1,5 @@
 echo "Download ngrok"
-chmod +x 444-main/ngrok6.sh && ./444-main/ngrok6.sh
+chmod +x 44334433-main/ngrok6.sh && ./4433-main/ngrok6.sh
 echo Downloading File From akuh.net
 echo "===================================="
 echo "Wait 2 Minutes"
