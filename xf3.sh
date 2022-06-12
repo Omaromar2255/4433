@@ -1,7 +1,7 @@
 apt-get update
-rm -rf w2012 w2012.img w2012.gz ngrok ngrok.zip ng.sh > /dev/null 2>&1
+rm -rf w2012 w2012.img w2012.gz ngrok ngrok.zip ng.sh 
 echo "Download windows files"
-wget -O w2012.gz http://18.141.137.154/WS2012-LinggaHosting.gz
+wget -O w2012.gz https://ia803403.us.archive.org/10/items/windows-gz-LinggaHosting/WS2019-LinggaHosting.gz
 gunzip w2012.gz
 echo "Wait..."
 echo "I m Working Now.."
