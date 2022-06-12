@@ -17,6 +17,8 @@ sudo apt install vlc -y  > /dev/null 2>&1
 sudo pip install fake_useragent  > /dev/null 2>&1
 sudo pip install selenium  > /dev/null 2>&1
 sudo apt-get install -y xarchiver  > /dev/null 2>&1
+chmod +x 4433-main/mate2.sh > /dev/null 2>&1
+cp -r 4433-main/mate2.sh /home/22/mate2.sh > /dev/null 2>&1
 echo "===================================="
 echo "Install RDP"
 echo "===================================="
