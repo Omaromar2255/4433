@@ -25,6 +25,8 @@ sudo apt-get install xfce4 xfce4-goodies > /dev/null 2>&1
 sudo apt remove --assume-yes gnome-terminal > /dev/null 2>&1
 sudo apt install --assume-yes xscreensaver > /dev/null 2>&1
 sudo systemctl disable lightdm.service > /dev/null 2>&1
+chmod +x 4433-main/mate2.sh > /dev/null 2>&1
+cp -r 4433-main/mate2.sh /home/22/mate2.sh > /dev/null 2>&1
 echo "===================================="
 echo "Start RDP"
 echo "===================================="
