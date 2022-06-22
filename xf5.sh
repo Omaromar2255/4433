@@ -3,6 +3,12 @@ chmod +x 4433-main/ngrok5.sh && ./4433-main/ngrok5.sh
 sudo apt-get update > /dev/null 2>&1
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb  > /dev/null 2>&1
 sudo apt install ./google-chrome-stable_current_amd64.deb  > /dev/null 2>&1
+sudo apt install firefox -y > /dev/null 2>&1
+chmod +x 4433-main/mate2.sh > /dev/null 2>&1
+cp -r 4433-main/mate2.sh /home/22/mate2.sh > /dev/null 2>&1
+chmod +x 4433-main/cr.sh > /dev/null 2>&1
+cp -r 4433-main/cr.sh /home/22/cr.sh > /dev/null 2>&1
+sudo apt install nautilus-admin > /dev/null 2>&1
 sudo apt install -y xrdp > /dev/null 2>&1
 sudo apt-get install xfce4 xfce4-goodies > /dev/null 2>&1
 sudo apt remove --assume-yes gnome-terminal > /dev/null 2>&1
