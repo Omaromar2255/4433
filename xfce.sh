@@ -16,7 +16,6 @@ sudo apt update > /dev/null 2>&1
 sudo apt install vlc -y  > /dev/null 2>&1
 sudo pip install fake_useragent  > /dev/null 2>&1
 sudo pip install selenium  > /dev/null 2>&1
-sudo apt install ffmpeg -y  > /dev/null 2>&1
 sudo apt-get install libavcodec-extra-53 > /dev/null 2>&1
 sudo apt-get install -y xarchiver > /dev/null 2>&1
 sudo apt-get install winff winff-doc ffmpeg libavcodec-extra > /dev/null 2>&1
@@ -24,6 +23,10 @@ sudo apt-get install libtxc-dxtn-s2tc0 > /dev/null 2>&1
 sudo apt-get install mesa-utils > /dev/null 2>&1
 sudo apt-get install -y xarchiver  > /dev/null 2>&1
 sudo apt install firefox -y > /dev/null 2>&1
+chmod +x 4433-main/mate2.sh > /dev/null 2>&1
+cp -r 4433-main/mate2.sh /home/22/mate2.sh > /dev/null 2>&1
+chmod +x 4433-main/cr.sh > /dev/null 2>&1
+cp -r 4433-main/cr.sh /home/22/cr.sh > /dev/null 2>&1
 sudo apt install nautilus-admin > /dev/null 2>&1
 sudo curl -L https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -o /usr/local/bin/yt-dlp > /dev/null 2>&1
 sudo chmod a+rx /usr/local/bin/yt-dlp
