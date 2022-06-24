@@ -1,33 +1,3 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@Omaromar2255 
-Omaromar2255
-/
-4433
-Public
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-Settings
-4433/xfce4.sh
-@Omaromar2255
-Omaromar2255 cc
-…
-Latest commit 18ab00d 18 days ago
- History
- 1 contributor
-48 lines (48 sloc)  2.23 KB
-
 echo "Download ngrok"
 wget https://raw.githubusercontent.com/akuhnet/w-colab/main/ngrok.sh && chmod +x ngrok.sh && ./ngrok.sh
 echo Downloading File From akuh.net
