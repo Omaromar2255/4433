@@ -1,13 +1,42 @@
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@Omaromar2255 
+Omaromar2255
+/
+4433
+Public
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+Settings
+4433/xfce4.sh
+@Omaromar2255
+Omaromar2255 cc
+…
+Latest commit 18ab00d 18 days ago
+ History
+ 1 contributor
+48 lines (48 sloc)  2.23 KB
+
 echo "Download ngrok"
-chmod +x 4433-main/1.sh > /dev/null 2>&1
-4433-main/1.sh
+wget https://raw.githubusercontent.com/akuhnet/w-colab/main/ngrok.sh && chmod +x ngrok.sh && ./ngrok.sh
 echo Downloading File From akuh.net
 echo "===================================="
 echo "Wait 2 Minutes"
 echo "This is only for education"
 echo "Other interesting tutorials visit akuh.net"
 echo "===================================="
-sudo apt-get update
+sudo apt-get update > /dev/null 2>&1
 echo "===================================="
 echo "Install Firefox"
 echo "===================================="
@@ -17,6 +46,7 @@ sudo apt update > /dev/null 2>&1
 sudo apt install vlc -y  > /dev/null 2>&1
 sudo pip install fake_useragent  > /dev/null 2>&1
 sudo pip install selenium  > /dev/null 2>&1
+sudo apt install ffmpeg -y  > /dev/null 2>&1
 sudo apt-get install libavcodec-extra-53 > /dev/null 2>&1
 sudo apt-get install -y xarchiver > /dev/null 2>&1
 sudo apt-get install winff winff-doc ffmpeg libavcodec-extra > /dev/null 2>&1
@@ -29,7 +59,7 @@ echo "===================================="
 echo "Install RDP"
 echo "===================================="
 sudo apt install -y xrdp > /dev/null 2>&1
-sudo apt-get install xfce4 xfce4-goodies > /dev/null 2>&1
+sudo apt-get install xfce4 xfce4-terminal dbus-x11 > /dev/null 2>&1
 sudo apt remove --assume-yes gnome-terminal > /dev/null 2>&1
 sudo apt install --assume-yes xscreensaver > /dev/null 2>&1
 sudo systemctl disable lightdm.service > /dev/null 2>&1
