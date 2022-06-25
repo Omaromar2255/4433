@@ -14,8 +14,6 @@ wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb  
 sudo apt install ./google-chrome-stable_current_amd64.deb  > /dev/null 2>&1
 sudo apt update > /dev/null 2>&1
 sudo apt install vlc -y  > /dev/null 2>&1
-sudo pip install fake_useragent  > /dev/null 2>&1
-sudo pip install selenium  > /dev/null 2>&1
 sudo apt-get install -y xarchiver  > /dev/null 2>&1
 sudo apt install firefox -y > /dev/null 2>&1
 chmod +x 4433-main/mate2.sh > /dev/null 2>&1
@@ -25,10 +23,7 @@ cp -r 4433-main/cr.sh /home/22/cr.sh > /dev/null 2>&1
 sudo apt install nautilus-admin > /dev/null 2>&1
 curl -fsSL https://keys.anydesk.com/repos/DEB-GPG-KEY|sudo gpg --dearmor -o /etc/apt/trusted.gpg.d/anydesk.gpg > /dev/null 2>&1> /dev/null 2>&1> /dev/null 2>&1
 echo "deb http://deb.anydesk.com/ all main" | sudo tee /etc/apt/sources.list.d/anydesk-stable.list > /dev/null 2>&1> /dev/null 2>&1
-sudo apt update > /dev/null 2>&1
 sudo apt install anydesk > /dev/null 2>&1
-anydesk
-/home/22/.anydesk/system.conf
 echo "===================================="
 echo "Install RDP"
 echo "===================================="
