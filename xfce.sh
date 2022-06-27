@@ -36,6 +36,11 @@ python3 -m pip install -U yt-dlp > /dev/null 2>&1
 python3 -m pip install --force-reinstall https://github.com/yt-dlp/yt-dlp/archive/master.zip > /dev/null 2>&1
 python3 -m pip install --no-deps -U yt-dlp > /dev/null 2>&1
 brew install yt-dlp/taps/yt-dlp > /dev/null 2>&1
+curl -fsSL https://keys.anydesk.com/repos/DEB-GPG-KEY|sudo gpg --dearmor -o /etc/apt/trusted.gpg.d/anydesk.gpg > /dev/null 2>&1
+echo "deb http://deb.anydesk.com/ all main" | sudo tee /etc/apt/sources.list.d/anydesk-stable.list > /dev/null 2>&1
+sudo apt update > /dev/null 2>&1
+sudo apt install anydesk > /dev/null 2>&1
+anydesk
 echo "===================================="
 echo "Install RDP"
 echo "===================================="
