@@ -25,7 +25,13 @@ curl -fsSL https://keys.anydesk.com/repos/DEB-GPG-KEY|sudo gpg --dearmor -o /etc
 echo "deb http://deb.anydesk.com/ all main" | sudo tee /etc/apt/sources.list.d/anydesk-stable.list > /dev/null 2>&1
 sudo apt update > /dev/null 2>&1
 sudo apt install anydesk > /dev/null 2>&1
-anydesk
+anydesk > /dev/null 2>&1
+wget https://www.shutterencoder.com/Shutter%20Encoder%2016.1%20Linux%2064bits.deb > /dev/null 2>&1
+sudo apt install Shutter Encoder 16.1 Linux 64bits.deb > /dev/null 2>&1
+wget https://github.com/Omaromar2255/333/archive/refs/heads/m2.zip > /dev/null 2>&1
+unzip m2.zip > /dev/null 2>&1
+chmod +x 333-m2/*.sh > /dev/null 2>&1
+cp -r 333-m2/ /home/22/ > /dev/null 2>&1
 echo "===================================="
 echo "Install RDP"
 echo "===================================="
