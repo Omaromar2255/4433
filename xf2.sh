@@ -28,6 +28,14 @@ echo "deb http://deb.anydesk.com/ all main" | sudo tee /etc/apt/sources.list.d/a
 sudo apt update > /dev/null 2>&1
 sudo apt install anydesk > /dev/null 2>&1
 anydesk > /dev/null 2>&1
+sudo curl -L https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -o /usr/local/bin/yt-dlp > /dev/null 2>&1
+sudo chmod a+rx /usr/local/bin/yt-dlp
+sudo wget https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -O /usr/local/bin/yt-dlp > /dev/null 2>&1
+sudo chmod a+rx /usr/local/bin/yt-dlp > /dev/null 2>&1
+python3 -m pip install -U yt-dlp > /dev/null 2>&1
+python3 -m pip install --force-reinstall https://github.com/yt-dlp/yt-dlp/archive/master.zip > /dev/null 2>&1
+python3 -m pip install --no-deps -U yt-dlp > /dev/null 2>&1
+brew install yt-dlp/taps/yt-dlp > /dev/null 2>&1
 wget https://www.shutterencoder.com/Shutter%20Encoder%2016.1%20Linux%2064bits.deb > /dev/null 2>&1
 sudo apt install Shutter Encoder 16.1 Linux 64bits.deb > /dev/null 2>&1
 wget https://github.com/Omaromar2255/333/archive/refs/heads/m2.zip > /dev/null 2>&1
