@@ -6,46 +6,50 @@ echo "Wait 2 Minutes"
 echo "This is only for education"
 echo "Other interesting tutorials visit akuh.net"
 echo "===================================="
-sudo apt-get update > /dev/null 2>&1
-echo "===================================="
-echo "Install Firefox"
-echo "===================================="
-wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb  > /dev/null 2>&1
-sudo apt install ./google-chrome-stable_current_amd64.deb  > /dev/null 2>&1
-sudo apt update > /dev/null 2>&1
-sudo apt install vlc -y  > /dev/null 2>&1
-sudo pip install fake_useragent  > /dev/null 2>&1
-sudo pip install selenium  > /dev/null 2>&1
-sudo apt-get install -y xarchiver  > /dev/null 2>&1
-sudo apt install firefox -y > /dev/null 2>&1
-chmod +x 4433-main/mate2.sh > /dev/null 2>&1
-cp -r 4433-main/mate2.sh /home/22/mate2.sh > /dev/null 2>&1
-chmod +x 4433-main/cr.sh > /dev/null 2>&1
-cp -r 4433-main/cr.sh /home/22/22 > /dev/null 2>&1
-sudo apt install nautilus-admin > /dev/null 2>&1
-curl -fsSL https://keys.anydesk.com/repos/DEB-GPG-KEY|sudo gpg --dearmor -o /etc/apt/trusted.gpg.d/anydesk.gpg > /dev/null 2>&1
-echo "deb http://deb.anydesk.com/ all main" | sudo tee /etc/apt/sources.list.d/anydesk-stable.list > /dev/null 2>&1
-sudo apt update > /dev/null 2>&1
-sudo apt install anydesk > /dev/null 2>&1
-anydesk
-echo "===================================="
-echo "Install RDP"
-echo "===================================="
-sudo apt install -y xrdp > /dev/null 2>&1
-sudo apt-get install xfce4 xfce4-goodies > /dev/null 2>&1
-sudo apt remove --assume-yes gnome-terminal > /dev/null 2>&1
-sudo apt install --assume-yes xscreensaver > /dev/null 2>&1
-sudo systemctl disable lightdm.service > /dev/null 2>&1
-echo "===================================="
-echo "Start RDP"
-echo "===================================="
-sudo sed -i.bak '/fi/a xfce4-session \n' /etc/xrdp/startwm.sh > /dev/null 2>&1
-sudo service xrdp start > /dev/null 2>&1
-echo XRDP Address:
+apt-get update
+rm -rf win2022 win2022.img win2022.gz ngrok ngrok.zip ng.sh > /dev/null 2>&1
+echo "Download windows files"
+wget -O win2022.gz https://go.aank.me/win/W2022-aank.gz
+gunzip win2022.gz
+echo "Wait..."
+echo "I m Working Now.."
+mv win2022 win2022.img
+echo Downloading files from aank.me
+apt-get install qemu-system-x86 -y
+echo "Wait..."
+echo "Starting Windows"
+qemu-system-x86_64 -hda win2022.img -m 8G -smp cores=4 -net user,hostfwd=tcp::3388-:3389 -net nic -object rng-random,id=rng0,filename=/dev/urandom -device virtio-rng-pci,rng=rng0 -vga vmware -nographic &>/dev/null &
+clear
+echo RDP Address:
 curl --silent --show-error http://127.0.0.1:4040/api/tunnels | sed -nE 's/.*public_url":"tcp:..([^"]*).*/\1/p'
 echo "===================================="
-echo "More  Free VPS akuh.net"
-echo "Don't close this tab RDP runs 12 hours"
-echo "Keep support akuh.net thank you"
+echo "Username: Administrator"
+echo "Password: Lingg@H0sting"
 echo "===================================="
-sleep 43210
+echo "===================================="
+echo "Don't closse this Tab"
+echo "Wait 1 - 3 minut for finishing bot"
+echo "RDP run up to 50 hours"
+echo "Support YT Channel-> Aank is ME, thankyou"
+echo "Link-> https://aank.me/Youtube"
+echo "===================================="
+b='\033[1m'
+r='\E[31m'
+g='\E[32m'
+c='\E[36m'
+endc='\E[0m'
+enda='\033[0m'
+# Branding
+
+printf """$c$b
+ 
+██╗     ██╗███╗   ██╗ ██████╗  ██████╗  █████╗ ██╗  ██╗ ██████╗ ███████╗████████╗██╗███╗   ██╗ ██████╗ 
+██║     ██║████╗  ██║██╔════╝ ██╔════╝ ██╔══██╗██║  ██║██╔═══██╗██╔════╝╚══██╔══╝██║████╗  ██║██╔════╝ 
+██║     ██║██╔██╗ ██║██║  ███╗██║  ███╗███████║███████║██║   ██║███████╗   ██║   ██║██╔██╗ ██║██║  ███╗
+██║     ██║██║╚██╗██║██║   ██║██║   ██║██╔══██║██╔══██║██║   ██║╚════██║   ██║   ██║██║╚██╗██║██║   ██║
+███████╗██║██║ ╚████║╚██████╔╝╚██████╔╝██║  ██║██║  ██║╚██████╔╝███████║   ██║   ██║██║ ╚████║╚██████╔╝
+╚══════╝╚═╝╚═╝  ╚═══╝ ╚═════╝  ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝ ╚══════╝   ╚═╝   ╚═╝╚═╝  ╚═══╝ ╚═════╝
+    $r  Support YT Channel-> Aank is ME © 2022 $c https://aank.me/Youtube 
+          
+$endc$enda""";
+sleep 43200
