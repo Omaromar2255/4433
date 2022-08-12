@@ -8,10 +8,8 @@ echo "root:222" | sudo chpasswd
 sed -i 's/\/bin\/sh/\/bin\/bash/g' /etc/passwd
 useradd -m 2211
 sudo adduser 2211 
-adduser 2211 sudo
 echo "2211:222" | sudo chpasswd
 sed -i 's/\/bin\/sh/\/bin\/bash/g' /etc/passwd
-sudo usermod -aG sudo,adm 2211
 echo "Download ngrok"
 chmod +x 4433-main/ngrok4.sh && ./4433-main/ngrok4.sh
 
