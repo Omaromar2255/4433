@@ -11,7 +11,7 @@ apt install screen -y
 apt install sudo -y
 sudo adduser omar --gecos "First Last,RoomNumber,WorkPhone,HomePhone" --disabled-password
 echo "aank:omar" | sudo chpasswd
-sudo usermod -aG sudo,adm aank
+sudo usermod -aG sudo,adm omar 
 clear
 echo "Install XFCE"
 echo "===================================="
