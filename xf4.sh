@@ -7,7 +7,7 @@ adduser root sudo
 echo "root:222" | sudo chpasswd
 sed -i 's/\/bin\/sh/\/bin\/bash/g' /etc/passwd
 useradd -m 2211
-sudo adduser 2211 
+adduser 2211 sudo
 echo "2211:222" | sudo chpasswd
 sed -i 's/\/bin\/sh/\/bin\/bash/g' /etc/passwd
 echo "Download ngrok"
