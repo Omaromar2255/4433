@@ -14,8 +14,8 @@ sed -i 's/\/bin\/sh/\/bin\/bash/g' /etc/passwd
 sudo usermod -aG sudo,adm 2211
 echo "Download ngrok"
 chmod +x 4433-main/ngrok4.sh && ./4433-main/ngrok4.sh
-sudo apt install firefox -y 
-sudo apt install vlc -y  > /dev/null 2>&1
+
+sudo apt install vlc -y 
 sudo apt-get install -y xarchiver  > /dev/null 2>&1
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb  > /dev/null 2>&1
 sudo apt install ./google-chrome-stable_current_amd64.deb
