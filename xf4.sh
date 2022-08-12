@@ -15,7 +15,7 @@ sudo usermod -aG sudo,adm omar
 clear
 echo "Install XFCE"
 echo "===================================="
-sudo apt install -y xfce4 xfce4-goodies > /dev/null 2>&1
+sudo apt install -y xfce4 xfce4-goodies 
 echo "=======25%"
 sudo apt install firefox -y > /dev/null 2>&1
 echo "=============50%"
