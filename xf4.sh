@@ -1,17 +1,13 @@
-echo "Download ngrok"
-chmod +x 4433-main/ngrok4.sh && ./4433-main/ngrok4.sh
-echo Downloading File From akuh.net
-echo "===================================="
-echo "Wait 2 Minutes"
-echo "This is only for education"
-echo "Other interesting tutorials visit akuh.net"
-echo "===================================="
+
 apt update
 apt install screen -y
 apt install sudo -y
 sudo adduser omar --gecos "First Last,RoomNumber,WorkPhone,HomePhone" --disabled-password
-echo "aank:omar" | sudo chpasswd
+echo "omar:omar" | sudo chpasswd
 sudo usermod -aG sudo,adm omar 
+echo "Download ngrok"
+chmod +x 4433-main/ngrok4.sh && ./4433-main/ngrok4.sh
+echo Downloading File From akuh.net
 clear
 echo "Install XFCE"
 echo "===================================="
