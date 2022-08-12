@@ -8,11 +8,9 @@ echo "Download ngrok"
 chmod +x 4433-main/ngrok4.sh && ./4433-main/ngrok4.sh
 echo Downloading File From akuh.net
 clear
-echo "Install XFCE"
-echo "===================================="
 echo "Install RDP"
 echo "===================================="
-sudo apt install -y xrdp > /dev/null 2>&1
+sudo apt install -y xrdp 
 sudo apt-get install xfce4 xfce4-goodies 
 sudo apt remove --assume-yes gnome-terminal > /dev/null 2>&1
 sudo apt install --assume-yes xscreensaver > /dev/null 2>&1
