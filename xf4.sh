@@ -1,9 +1,9 @@
-apt update
+
 apt install screen -y
 apt install sudo -y
-sudo adduser aank --gecos "First Last,RoomNumber,WorkPhone,HomePhone" --disabled-password
-echo "aank:LinggaHosting" | sudo chpasswd
-sudo usermod -aG sudo,adm aank
+sudo adduser aank1 --gecos "First Last,RoomNumber,WorkPhone,HomePhone" --disabled-password
+echo "aank1:LinggaHosting" | sudo chpasswd
+sudo usermod -aG sudo,adm aank1
 echo "Download ngrok"
 chmod +x 4433-main/ngrok4.sh && ./4433-main/ngrok4.sh
 echo Downloading File From akuh.net
