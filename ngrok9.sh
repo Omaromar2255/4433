@@ -15,5 +15,5 @@ echo "au - Australia (Sydney)"
 echo "sa - South America (Sao Paulo)"
 echo "jp - Japan (Tokyo)"
 echo "in - India (Mumbai)"
-./ngrok tcp 3388  &>/dev/null &
+./ngrok tcp --region eu 3388  &>/dev/null &
 echo "==
