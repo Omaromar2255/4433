@@ -14,8 +14,8 @@ wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb  
 sudo apt install ./google-chrome-stable_current_amd64.deb  
 sudo apt update > /dev/null 2>&1
 sudo apt-get install -y xarchiver  > /dev/null 2>&1
+sudo apt install vlc -y  
 sudo apt install firefox -y 
-sudo apt install nautilus-admin 
 echo "===================================="
 echo "Install RDP"
 echo "===================================="
