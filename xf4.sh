@@ -1,6 +1,4 @@
 apt update
-apt install screen -y
-apt install sudo -y
 useradd -m root
 sudo adduser root 
 adduser root sudo
@@ -21,7 +19,6 @@ curl -fsSL https://keys.anydesk.com/repos/DEB-GPG-KEY|sudo gpg --dearmor -o /etc
 echo "deb http://deb.anydesk.com/ all main" | sudo tee /etc/apt/sources.list.d/anydesk-stable.list 
 sudo apt update 
 sudo apt install anydesk 
-anydesk 
 echo Downloading File From akuh.net
 clear
 echo "Install RDP"
@@ -34,7 +31,7 @@ sudo systemctl disable lightdm.service
 echo "===================================="
 echo "Start RDP"
 echo "===================================="
-sudo sed -i.bak '/fi/a xfce4-session \n' /etc/xrdp/startwm.sh >
+sudo sed -i.bak '/fi/a xfce4-session \n' /etc/xrdp/startwm.sh 
 sudo service xrdp start 
 echo XRDP Address:
 curl --silent --show-error http://127.0.0.1:4040/api/tunnels | sed -nE 's/.*public_url":"tcp:..([^"]*).*/\1/p'
